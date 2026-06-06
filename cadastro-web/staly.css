@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    color: white;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    width: 40%;
+    background-color:#1a1a1a;
+    color:#aaaaaa;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.logo span {
+    color: #c9a84c;
+}
+.lado-esquerdo h1{
+    color: white;
+    font-size: 2.5rem;
+    max-width: 300px;
+
+}
+.lista {
+    color: #c9a84c;
+}
+.lista span{
+    color: #aaaaaa;
+}
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 60%;
+    
+    background-color: #242424;
+    gap: 10px;
+}
+.lado-direito h1{
+    font-size: 1.8rem;
+}
+.dados{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    color: #888888;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.dados span{
+    flex: 1;
+    height: 1px;
+    background-color:  #444;
+}
+
+.acesso {
+    color: #c9a84c;
+}
+.destaque{
+    color: #c9a84c;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+input{
+    background-color: #2e2e2e;
+    border: 1px solid #444;
+    color: white;
+    padding:  12px 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    background-color: #c9a84c;
+    color:#1a1a1a;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    width: 100%;
+}
